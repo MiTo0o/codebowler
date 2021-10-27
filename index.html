@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="style.css" rel="stylesheet" />
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="./res/shrek.js"></script>
+    <script type="text/javascript" src="./res/filler.js"></script>
+    <script type="text/javascript" src="./res/fillerLength.js"></script>
     <body>
 
 
     <div class="">
+    <select name="transcriptDropdown" id="transcriptDropdown">
+        <option value="shrek">shrek</option>
+        <option value="spirtedAway">Spirted Away (EN)</option>
+        <option value="rushHour1998">Rush Hour (1998)</option>
+
+    </select>
     <textarea id="inputForm"></textarea>
-    <button id="bowlButton" onclick="bowl()">"Bowl Code"</button>
+    <button id="bowlButton" onclick="bowl()">Bowl Code</button>
     <textarea id="outputForm"></textarea>
     </div>
 

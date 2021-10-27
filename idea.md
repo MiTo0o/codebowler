@@ -4,7 +4,7 @@ append a multiline comment at the end of the code to make it longer
 
 
 
-
+different lenght display error message and stuff
 features:
   decide length
   decide what to append(shrek script? ect)
