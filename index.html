@@ -7,19 +7,28 @@
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="./res/filler.js"></script>
     <script type="text/javascript" src="./res/fillerLength.js"></script>
+    <script type="text/javascript" src="./res/commentSyntax.js"></script>
     <body>
 
 
     <div class="">
-    <select name="transcriptDropdown" id="transcriptDropdown">
+    <select name="Transcript Dropdown" id="transcriptDropdown">
         <option value="shrek">shrek</option>
         <option value="spirtedAway">Spirted Away (EN)</option>
         <option value="rushHour1998">Rush Hour (1998)</option>
-
     </select>
-    <textarea id="inputForm"></textarea>
+    <select name="Programming Language" id="programmingLanguage">
+        <option value="python">Python</option>
+        <option value="javascript">Javascript</option>
+        <option value="java">Java</option>
+        <option value="go">Go</option>
+        <option value="cpp">C plus plus</option>
+        <option value="cs">C #</option>
+    </select>
+
+    <textarea id="inputForm" rows="40" cols="100"></textarea>
     <button id="bowlButton" onclick="bowl()">Bowl Code</button>
-    <textarea id="outputForm"></textarea>
+    <textarea id="outputForm" rows="40" cols="100"></textarea>
     </div>
 
     </body>

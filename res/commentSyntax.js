@@ -1,6 +1,6 @@
 const syntax = {
-    python: "```",
-    javascript: "`",
+    python: ["```","```"],
+    javascript: ["`","`"],
     java: ["/*", "*/"],
     go: ["/*", "*/"],
     cpp: ["/*", "*/"],
